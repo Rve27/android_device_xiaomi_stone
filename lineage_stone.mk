@@ -69,6 +69,9 @@ ifneq ($(WITH_GMS),true)
 TARGET_INCLUDES_LOS_PREBUILTS := true
 endif
 
+# ViperFX
+TARGET_INCLUDE_VIPERFX := false
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080

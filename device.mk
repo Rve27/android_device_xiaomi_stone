@@ -13,9 +13,6 @@ PRODUCT_PACKAGES += Datura
 # Dolby
 $(call inherit-product-if-exists, hardware/dolby/dolby.mk)
 
-# Viper
-$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
-
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
