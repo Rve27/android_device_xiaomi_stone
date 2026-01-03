@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# BCR
-$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
-
 # Datura
 PRODUCT_PACKAGES += Datura
 

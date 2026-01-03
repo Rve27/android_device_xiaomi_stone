@@ -72,6 +72,9 @@ endif
 # ViperFX
 TARGET_INCLUDE_VIPERFX := false
 
+# BCR
+TARGET_PREBUILT_BCR := false
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
